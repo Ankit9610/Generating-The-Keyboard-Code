@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Key_Board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Key_Board h1{
+    
+    text-align: center;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 100px ;
+    color: hsl(0, 2%, 12%);
+    
+}
+.Key_Board h1 span{
+    color: rgb(206, 89, 21);
+}
+.Key_Board .key{
+    padding: 10px 110px;
+}
+.code{
+    margin-top: 20px;
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 200px;
+    color: yellow;
+    
+    
+}
+@media screen and (max-width : 425px){
+    .Key_Board .key {
+        padding: 12px 24px;
+    }
+    .Key_Board h1 {
+        font-size: 1.5rem;
+        padding: 12px 24px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width : 768px) {
+    .Key_Board .key {
+        padding: 12px 24px;
+    }
+    .Key_Board h1 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
